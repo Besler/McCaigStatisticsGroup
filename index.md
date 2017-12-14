@@ -8,7 +8,9 @@ The group is composed of the following core members:
 - Bryce Besler
 - Andres Kroker
 - Danielle Whittier
-- More to come when I figure out their last names
+- David Aponte
+- Jordan Bannister
+- Leonardo Martin-Alarcon
 
 The group is supported by the following post doctoral fellows and faculty in the institute:
 - Dr. Leigh Gabel
