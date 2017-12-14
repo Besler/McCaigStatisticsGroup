@@ -1,37 +1,26 @@
-## Welcome to GitHub Pages
+## Reading Group
 
-You can use the [editor on GitHub](https://github.com/Besler/McCaigStatisticsGroup-2018/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+This is a trainne led initiative in the [McCaig Institute for Bone and Joint Health](http://www.mccaiginstitute.com/) to learn statistics.
+Our objective is to cover descriptive statistics to hypothesis testing up to general linear models.
+Our focus is on understanding the models and working through test cases.
+The course is based off the book [The Statistical Sleuth](http://www.statisticalsleuth.com/).
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+The group is composed of the following core members:
+- Bryce Besler
+- Andres Kroker
+- Danielle Whittier
+- More to come when I figure out their last names
 
-### Markdown
+The group is supported by the following post doctoral fellows and faculty in the institute:
+- Dr. Leigh Gabel
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Meetings
+We will be meeting on Thursdays, 11-12 in HRIC 3C70.
+You can subscribe to a Google Calendar [online](https://calendar.google.com/calendar?cid=Zjh2cm4yY280Z3MyN29vYzRybHZpaG45dmdAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ).
 
-```markdown
-Syntax highlighted code block
+### Course Outline
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
 
-**Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Besler/McCaigStatisticsGroup-2018/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
