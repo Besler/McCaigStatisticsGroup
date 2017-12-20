@@ -36,7 +36,7 @@ Additional information such as slides will be put in this git repository or adde
 | Feb. 1st    | right-aligned | TBD      |
 | Feb. 8th    | centered      |  TBD     |
 | Feb. 15th   | are neat      |  TBD     |
-| Feb. 22nd   | BREAK         | TBD      |
+| Feb. 22nd   | BREAK         | BREAK    |
 | Mar. 1st    | centered      | TBD      |
 | Mar. 8th    | are neat      |  TBD     |
 | Mar. 15th   | right-aligned | TBD      |
