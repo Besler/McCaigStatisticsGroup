@@ -18,6 +18,7 @@ The group is supported by the following post doctoral fellows and faculty in the
 ### Meetings
 We will be meeting on Thursdays, 11-12 in HRIC 3C70.
 You can subscribe to a Google Calendar [online](https://calendar.google.com/calendar?cid=Zjh2cm4yY280Z3MyN29vYzRybHZpaG45dmdAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ).
+The presentations are public, so please come out!
 
 ### Resources
 The course is based off the book [The Statistical Sleuth](http://www.statisticalsleuth.com/).
@@ -26,6 +27,22 @@ The McCaig Institute has purchased a few copies. Contact the organizers if you w
 Additional information such as slides will be put in this git repository or added to this webpage.
 
 ### Course Outline
+| Date        | Topic         | Presenter  |
+|:----------- |:-------------:| -----:|
+| Jan. 11th   | right-aligned | TBD |
+| Jan. 18th   | centered      | TBD |
+| Jan. 25th   | are neat      | TBD |
+| Feb. 1st    | right-aligned | TBD |
+| Feb. 8th    | centered      |  TBD |
+| Feb. 15th   | are neat      |  TBD |
+| Feb. 22nd   | BREAK         | TBD |
+| Mar. 1st    | centered      | TBD |
+| Mar. 8th    | are neat      |  TBD |
+| Mar. 15th   | right-aligned | TBD |
+| Mar. 22nd   | centered      | TBD |
+| Mar. 29th   | are neat      | TBD |
+
+
 
 
 
