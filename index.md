@@ -27,20 +27,21 @@ The McCaig Institute has purchased a few copies. Contact the organizers if you w
 Additional information such as slides will be put in this git repository or added to this webpage.
 
 ### Course Outline
-| Date        | Topic         | Presenter  |
-|:----------- |:-------------:| -----:|
-| Jan. 11th   | right-aligned | TBD |
-| Jan. 18th   | centered      | TBD |
-| Jan. 25th   | are neat      | TBD |
-| Feb. 1st    | right-aligned | TBD |
-| Feb. 8th    | centered      |  TBD |
-| Feb. 15th   | are neat      |  TBD |
-| Feb. 22nd   | BREAK         | TBD |
-| Mar. 1st    | centered      | TBD |
-| Mar. 8th    | are neat      |  TBD |
-| Mar. 15th   | right-aligned | TBD |
-| Mar. 22nd   | centered      | TBD |
-| Mar. 29th   | are neat      | TBD |
+
+| Date        | Topic         | Presenter|
+|:----------- |:-------------:| --------:|
+| Jan. 11th   | right-aligned | TBD      |
+| Jan. 18th   | centered      | TBD      |
+| Jan. 25th   | are neat      | TBD      |
+| Feb. 1st    | right-aligned | TBD      |
+| Feb. 8th    | centered      |  TBD     |
+| Feb. 15th   | are neat      |  TBD     |
+| Feb. 22nd   | BREAK         | TBD      |
+| Mar. 1st    | centered      | TBD      |
+| Mar. 8th    | are neat      |  TBD     |
+| Mar. 15th   | right-aligned | TBD      |
+| Mar. 22nd   | centered      | TBD      |
+| Mar. 29th   | are neat      | TBD      |
 
 
 
