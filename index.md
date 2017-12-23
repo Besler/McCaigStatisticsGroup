@@ -28,20 +28,20 @@ Additional information such as slides will be put in this git repository or adde
 
 ### Course Outline
 
-| Date          | Topic                                          | Presenter |
-|:------------- |:---------------------------------------------- |:--------- |
-| Jan. 11th     | Statistics, Inference, Sampling                | Bryce     |
-| Jan. 18th     | T-test                                         | TBD       |
-| Jan. 25th     | ANOVA                                          | TBD       |
-| Feb. 1st      | SLR, MLR                                       | TBD       |
-| Feb. 8th      | ANCOVA, General Linear Models                  |  TBD      |
-| Feb. 15th     | Longitudinal Data Analysis                     |  TBD      |
-| **Feb. 22nd** | **BREAK**                                      | **BREAK** |
-| Mar. 1st      | Reproducibility                                | TBD       |
-| Mar. 8th      | Binary Outcomes                                |  TBD      |
-| Mar. 15th     | Logistic Regression, Generalized Linear Models | TBD       |
-| Mar. 22nd     | Experimental Design, Statistical Planning      | TBD       |
-| Mar. 29th     | Summary and Exam                               | Bryce     |
+| Date                     | Topic                                          | Presenter |
+|:------------------------ |:---------------------------------------------- |:--------- |
+| Jan. 11<sup>th</sup>     | Statistics, Inference, Sampling                | Bryce     |
+| Jan. 18<sup>th</sup>     | T-test                                         | TBD       |
+| Jan. 25<sup>th</sup>     | ANOVA                                          | TBD       |
+| Feb. 1<sup>st</sup>      | SLR, MLR                                       | TBD       |
+| Feb. 8<sup>th</sup>      | ANCOVA, General Linear Models                  |  TBD      |
+| Feb. 15<sup>th</sup>     | Longitudinal Data Analysis                     |  TBD      |
+| **Feb. 22<sup>nd</sup>** | **BREAK**                                      | **BREAK** |
+| Mar. 1<sup>st</sup>      | Reproducibility                                | TBD       |
+| Mar. 8<sup>th</sup>      | Binary Outcomes                                |  TBD      |
+| Mar. 15<sup>th</sup>     | Logistic Regression, Generalized Linear Models | TBD       |
+| Mar. 22<sup>nd</sup>     | Experimental Design, Statistical Planning      | TBD       |
+| Mar. 29<sup>th</sup>     | Summary and Exam                               | Bryce     |
 
 
 
