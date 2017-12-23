@@ -28,20 +28,21 @@ Additional information such as slides will be put in this git repository or adde
 
 ### Course Outline
 
-| Date        | Topic         | Presenter|
-|:----------- |:-------------:| --------:|
-| Jan. 11th   | right-aligned | TBD      |
-| Jan. 18th   | centered      | TBD      |
-| Jan. 25th   | are neat      | TBD      |
-| Feb. 1st    | right-aligned | TBD      |
-| Feb. 8th    | centered      |  TBD     |
-| Feb. 15th   | are neat      |  TBD     |
-| Feb. 22nd   | BREAK         | BREAK    |
-| Mar. 1st    | centered      | TBD      |
-| Mar. 8th    | are neat      |  TBD     |
-| Mar. 15th   | right-aligned | TBD      |
-| Mar. 22nd   | centered      | TBD      |
-| Mar. 29th   | are neat      | TBD      |
+| Date          | Topic                                          | Presenter |
+|:------------- |:---------------------------------------------- |:--------- |
+| Jan. 11th     | Statistics, Inference, Sampling                | Bryce     |
+| Jan. 18th     | T-test                                         | TBD       |
+| Jan. 25th     | ANOVA                                          | TBD       |
+| Feb. 1st      | SLR, MLR                                       | TBD       |
+| Feb. 8th      | ANCOVA, General Linear Models                  |  TBD      |
+| Feb. 15th     | Longitudinal Data Analysis                     |  TBD      |
+| **Feb. 22nd** | **BREAK**                                      | **BREAK** |
+| Mar. 1st      | Reproducibility                                | TBD       |
+| Mar. 8th      | Binary Outcomes                                |  TBD      |
+| Mar. 15th     | Logistic Regression, Generalized Linear Models | TBD       |
+| Mar. 22nd     | Experimental Design, Statistical Planning      | TBD       |
+| Mar. 29th     | Summary and Exam                               | Bryce     |
+
 
 
 
