@@ -31,15 +31,15 @@ Additional information such as slides will be put in this git repository or adde
 | Date                     | Topic                                          | Presenter |
 |:------------------------ |:---------------------------------------------- |:--------- |
 | Jan. 11<sup>th</sup>     | Statistics, Inference, Sampling                | Bryce     |
-| Jan. 18<sup>th</sup>     | T-test                                         | TBD       |
-| Jan. 25<sup>th</sup>     | ANOVA                                          | TBD       |
-| Feb. 1<sup>st</sup>      | SLR, MLR                                       | TBD       |
-| Feb. 8<sup>th</sup>      | ANCOVA, General Linear Models                  |  TBD      |
-| Feb. 15<sup>th</sup>     | Longitudinal Data Analysis                     |  TBD      |
+| Jan. 18<sup>th</sup>     | T-test                                         | Jordan    |
+| Jan. 25<sup>th</sup>     | ANOVA                                          | Danielle  |
+| Feb. 1<sup>st</sup>      | SLR, MLR                                       | Andres    |
+| Feb. 8<sup>th</sup>      | ANCOVA, General Linear Models                  | Andres    |
+| Feb. 15<sup>th</sup>     | Longitudinal Data Analysis                     | Danielle  |
 | **Feb. 22<sup>nd</sup>** | **BREAK**                                      | **BREAK** |
 | Mar. 1<sup>st</sup>      | Reproducibility                                | TBD       |
-| Mar. 8<sup>th</sup>      | Binary Outcomes                                |  TBD      |
-| Mar. 15<sup>th</sup>     | Logistic Regression, Generalized Linear Models | TBD       |
+| Mar. 8<sup>th</sup>      | Binary Outcomes                                | TBD       |
+| Mar. 15<sup>th</sup>     | Logistic Regression, Generalized Linear Models | Jordan    |
 | Mar. 22<sup>nd</sup>     | Experimental Design, Statistical Planning      | TBD       |
 | Mar. 29<sup>th</sup>     | Summary and Exam                               | Bryce     |
 
