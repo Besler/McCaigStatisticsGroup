@@ -1,0 +1,11 @@
+# Tex
+*.aux
+*.bbl
+*.blg
+*.log
+*.synctex.gz
+*.out
+
+# Mac
+.DS_Store
+
