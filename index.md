@@ -36,8 +36,8 @@ Additional information such as slides will be put in this git repository or adde
 | Feb. 1<sup>st</sup>      | SLR, MLR                                       | Andres    |
 | Feb. 8<sup>th</sup>      | ANCOVA, General Linear Models                  | Andres    |
 | Feb. 15<sup>th</sup>     | Longitudinal Data Analysis                     | Danielle  |
-| Feb. 22<sup>st</sup>     | Reproducibility                                | David     |
-| **Mar. 1<sup>nd</sup>**  | **BREAK**                                      | **BREAK** |
+| Feb. 22<sup>nd</sup>     | Reproducibility                                | David     |
+| **Mar. 1<sup>st</sup>**  | **BREAK**                                      | **BREAK** |
 | Mar. 8<sup>th</sup>      | Binary Outcomes                                | Doug      |
 | Mar. 15<sup>th</sup>     | Logistic Regression, Generalized Linear Models | Jordan    |
 | Mar. 22<sup>nd</sup>     | Experimental Design, Statistical Planning      | David     |
