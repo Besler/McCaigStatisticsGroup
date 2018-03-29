@@ -14,6 +14,7 @@ The group is composed of the following core members:
 
 The group is supported by the following post doctoral fellows and faculty in the institute:
 - Dr. Leigh Gabel
+- Dr. Sarah Manske
 
 ### Meetings
 We will be meeting on Thursdays, 11-12 in HRIC 3C70.
