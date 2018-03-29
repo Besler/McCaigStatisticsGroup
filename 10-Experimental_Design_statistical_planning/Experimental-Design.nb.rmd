@@ -1,0 +1,106 @@
+---
+title: "Experimental design"
+output: html_notebook
+---
+ 
+Designing experiments, thinking about sample size and structure can help minimize the noise in our data and more clearly answer the questions that we are asking.
+
+<h3>Research Design Tool Kit</h3>
+
+Here's the big list from the statistical sleuth to summarize:
+
+<b>1) Controls and placebos:</b> Controls serve as our reference in a statistical analysis. Placebos mimic the treatment in an attempt to disentagle the assignment of a treatment from the true treatment effect. 
+
+<b>2) Blinding:</b> The experimenter/subject is uncertain of the group/treatment assignments. Below is an example from JAMA
+
+<img src="https://jamanetwork.com/data/Journals/JAMA/935747/jld160026t1.png" height="650" width="670">
+ 
+Okike K, Hug KT, Kocher MS, Leopold SS. Single-blind vs Double-blind Peer Review in the Setting of Author Prestige. JAMA. 2016;316(12):1315–1316. doi:10.1001/jama.2016.11014
+
+<b>3) Blocking:</b> Arranging units into homogeneous subgroups so that treatments can be randomly assigned to units within a block.
+
+<b>4) Covariates:</b> A variable not controlled by the researcher that may be related to your response. Eg. sex, age, etc.
+
+<b>5) Replication:</b> Assigning one treatment to multiple units within each block. Think of the lowest unit of interpretation.
+
+<b>6) Balance:</b> The same number of samples in each treatment group.
+
+<h3>Mixed-models</h3>
+
+A mixed model is a statistical model that incorporates both fixed and random effects. The meaning of those terms is contentious: http://andrewgelman.com/2005/01/25/why_i_dont_use/
+
+To work through an example in R, I used the tutorial found at http://www.bodowinter.com/tutorial/bw_LME_tutorial2.pdf
+
+A good explanation that doesn't use code can be found at: http://www.bristol.ac.uk/cmm/learning/videos/random-slopes.html
+
+
+```{r}
+library("lme4")
+
+politeness=
+read.csv("http://www.bodowinter.com/tutorial/politeness_data.csv")
+head(politeness)
+
+```
+
+
+
+Normal GLM approach:
+```{r}
+boxplot(frequency ~ attitude*gender,
+col=c("white","lightgray"),politeness, xlab = "Tone * Sex", ylab = "Frequency")
+
+summary(lm(frequency ~ attitude +
+gender, data = politeness))
+```
+
+
+How were the data measured? Each individual in this study said 7 different phrases in an informal and polite way. There's variation in pitch within and between individuals and within the things they say. Let's look at it:
+```{r}
+
+boxplot(frequency ~ scenario,politeness, xlab = "Phrase", ylab = "Frequency (Hz)")
+
+boxplot(frequency ~ subject,politeness, xlab = "Person", ylab = "Frequency (Hz)")
+
+```
+
+People have their own pattern of changing pitch. Random intercepts can help us visualize it, and also adjust the variable we are interested in (in this case attitude) relative to an individuals' variation in pitch.
+```{r}
+plot(frequency ~ attitude == "pol",politeness, col = politeness$subject, xlab = "Informal vs Polite tone", ylab = "Frequency (Hz)")
+abline(lm(frequency ~ attitude, data = politeness), lwd = 2)
+
+#allow the intercept to vary by subject
+ran.int <- coef(lmer(frequency ~ attitude + (1|subject), data = politeness))
+for(i in 1 : nlevels(politeness$subject)) abline(a = ran.int$subject[i,1], b = ran.int$subject[i,2], col = i + 1)
+```
+
+
+
+
+```{r}
+politeness.model = lmer(frequency ~ attitude + gender + (1|subject) + (1|scenario), data=politeness)
+
+summary(politeness.model)
+```
+
+Let's get some p-values using the likelihood ratio test:
+```{r}
+politeness.null = lmer(frequency ~ gender +
+(1|subject) + (1|scenario), data=politeness,
+REML=FALSE)
+
+politeness.model = lmer(frequency ~ attitude +
+gender + (1|subject) + (1|scenario),
+data=politeness, REML=FALSE)
+
+anova(politeness.null,politeness.model)
+```
+
+This is just a really brief introduction to mixed models where we've tried to account for variation in the relationship between polite and informal tone by considering the average difference between people and differences in the phrases they used. You can also make the slopes vary at the individual and phrase level to account for individual/phrase differences in the relationship between polite and informal tone.
+
+
+
+<h3>Last note: Statistical planning</h3>
+Here are most of the tests that we've talked about so far and how they are related/when to choose which kind of test. Thanks to Brian Inouye for creating it.
+
+<img src="/Users/jovid/OneDrive - University of Calgary/Grad_school/UofC/Mccaig_stats/inouye_lms.png">
